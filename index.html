@@ -5,32 +5,59 @@ p {
     /* text-align: center; */
     /* max-width: 800px; */
 }
+  
+nav li {
+    display: inline;
+    text-align: center;
+    margin-right: 10px;
+}
+
+h1 {
+    display: inline;
+}
 </style>
     </head>
     <body style="font-family: sans-serif;color: #000;">
+        <div id="top">
+        </div>
         <p><img src="images/profile_picture_3_cropped.jpg"
             style="max-width: 200px; display: block; margin: 0 auto;"></p>
         <p style="text-align: center; font-size: x-large;">Shih-Hsiang Cheng</p>
-        <h1>About</h1>
 
-            <p>I'm a first year PhD student at <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>.
-            I study the area of computer architecture, particularly interested in high performance computing computer architecture.
-            I am advised by <a href="https://www.conte.us/">Tom Conte</a>, and I joined my advisor's <a href="https://prod.tinker.cc.gatech.edu/">TINKER Research Group</a> since August 2022.</p>
-        
-        <h1>Education</h1>
-            <h3>Georgia Institute of Technology, Atlanta, GA</h3>
-                <em>Ph.D. in Computer Science, Advisor: Tom Conte</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Jan. 2023 - Present</b>
-            <h3>Georgia Institute of Technology, Atlanta, GA</h3>
-                <em>Master of Science in Computer Science, GPA: 4.0/4.0</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Aug. 2021 - Dec. 2022</b>
-            <h3>National Taiwan University, Taipei, Taiwan</h3>
-                <em>Master of Science in Computer Science and Information Engineering, GPA: 4.07/4.3</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Sep. 2021 - Jun. 2021</b>
-                <ul>
-                    <li>Thesis: The Design and Implementation of Submillimeter 3-dimensional inspection framework of LGA Socket Using VCSEL Array</li>
-                </ul>
-            <h3>National Taiwan University, Taipei, Taiwan</h3>
-                <em>Bachelor of Science in Computer Science and Information Engineering, GPA: 4.07/4.3</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Sep. 2015 - Jan. 2019</b>
+        <nav>
+            <ul>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Education">Education</a></li>
+              <li><a href="#WorkExperience">Work Experience</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
 
-        <h1>Work Experience</h1>
+        <div id="About">
+            <h1>About </h1> <a href="#top">[back to top]</a>
+
+                <p>I'm a first year PhD student at <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>.
+                I study the area of computer architecture, particularly interested in high performance computing computer architecture.
+                I am advised by <a href="https://www.conte.us/">Tom Conte</a>, and I joined my advisor's <a href="https://prod.tinker.cc.gatech.edu/">TINKER Research Group</a> since August 2022.</p>
+        </div>
+            
+        <div id="Education">
+            <h1>Education</h1> <a href="#top">[back to top]</a>
+                <h3>Georgia Institute of Technology, Atlanta, GA</h3>
+                    <em>Ph.D. in Computer Science, Advisor: Tom Conte</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Jan. 2023 - Present</b>
+                <h3>Georgia Institute of Technology, Atlanta, GA</h3>
+                    <em>Master of Science in Computer Science, GPA: 4.0/4.0</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Aug. 2021 - Dec. 2022</b>
+                <h3>National Taiwan University, Taipei, Taiwan</h3>
+                    <em>Master of Science in Computer Science and Information Engineering, GPA: 4.07/4.3</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Sep. 2021 - Jun. 2021</b>
+                    <ul>
+                        <li>Thesis: The Design and Implementation of Submillimeter 3-dimensional inspection framework of LGA Socket Using VCSEL Array</li>
+                    </ul>
+                <h3>National Taiwan University, Taipei, Taiwan</h3>
+                    <em>Bachelor of Science in Computer Science and Information Engineering, GPA: 4.07/4.3</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Sep. 2015 - Jan. 2019</b>
+        </div>
+
+        <div id="WorkExperience">
+            <h1>Work Experience</h1> <a href="#top">[back to top]</a>
             <h3>Green Hills Software, Santa Barbara, CA</h3>
                 <em>Software Engineering Intern</em> &nbsp;&nbsp;&nbsp;&nbsp; <b>Jun. 2022 - Aug. 2022</b>
                 <ul>
@@ -66,13 +93,16 @@ p {
                         the road sign detection system from 72% to 85%.</li>
                     <li>Automated the model fine-tuning pipeline by integrating the ROS bag file parser and the Yolov3 model trainer.</li>
                 </ul>
+        </div>
 
-        <h1>Contact</h1>
-        <a href="cv.pdf">résumé</a><br>
-        <a href="https://github.com/evancheng1006/">Github</a><br>
-        <a href="https://github.com/evancheng1006/">Linkedin</a><br>
-        <a href="mailto: evancheng1006@gmail.com">evancheng1006@gmail.com</a><br>
-        <a href="mailto: scheng306@gatech.edu">scheng306@gatech.edu</a><br>
+        <div id="Contact">
+            <h1>Contact</h1> <a href="#top">[back to top]</a> <br>
+            <a href="cv.pdf">résumé</a><br>
+            <a href="https://github.com/evancheng1006/">Github</a><br>
+            <a href="https://github.com/evancheng1006/">Linkedin</a><br>
+            <a href="mailto: evancheng1006@gmail.com">evancheng1006@gmail.com</a><br>
+            <a href="mailto: scheng306@gatech.edu">scheng306@gatech.edu</a><br>
+        </div>
             
     </body>
 </html>
